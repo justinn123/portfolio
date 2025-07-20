@@ -117,11 +117,6 @@ Have fun creating your portfolio on this template!!! -->
             a specialization in Data Science. Aside from computer science, some of my interests
             include basketball, bouldering, snowboarding, and watching/reading anime and manga.
           </p>
-          <p class="about-wrapper__info-text">
-            Some of my favorites include Attack on Titan, Hunter x Hunter, Vagabond, and Vinland Saga
-            just to name a few. I'm currently creating a blog page where I will post my thoughts and reviews on
-            anime and manga I am currently watching and reading so be sure to check it out when I publish it.
-          </p>
           <span class="about-wrapper__cta">
             <a href="./assets/Resume.pdf" target="_blank" class="cta-btn cta-btn--resume">View Resume</a>
           </span>
@@ -136,6 +131,33 @@ Have fun creating your portfolio on this template!!! -->
     <div class="container">
       <div class="project-wrapper">
         <h2 class="section-title dark-blue-text">Projects</h2>
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">Planet Twerp</h3>
+            <p class="project-wrapper__text-info">
+              This project is a web-application that provides summaries about professors
+              at the University of Maryland. It uses Flask, LangChain, Groq, and Planet Terp data to generate concise,
+              structured insights—including overall sentiment, common course experiences, and average ratings.
+            </p>
+            <div class="project-wrapper__text-btns">
+              <a href="https://planettwerp.vercel.app/" target="_blank" rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects">See
+                Live</a>
+              <a href="https://github.com/justinn123/UMD-Prof-Ranker" target="_blank"
+                class="cta-btn text-color-main">Source Code</a>
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="https://planettwerp.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="./assets/image.png" class="img-fluid" alt="Project Image" width="1366" height="767" />
+              </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
 
         <!-- Each .row is a project -->
         <article class="row">
@@ -191,35 +213,6 @@ Have fun creating your portfolio on this template!!! -->
             <a href="https://github.com/justinn123/manga-rec" target="_blank" rel="noopener noreferrer">
               <div class="thumbnail rounded">
                 <img src="./assets/code_preview.png" class="img-fluid" alt="Project Image" width="1366" height="767" />
-              </div>
-            </a>
-          </div>
-        </article>
-        <!-- /END Project -->
-
-        <!-- Each .row is a project -->
-        <article class="row">
-          <div class="project-wrapper__text">
-            <h3 class="project-wrapper__text-title">Planet Terp Scraper/Ranker</h3>
-            <p class="project-wrapper__text-info">
-              This project is a discord bot that scrapes Planet Terp for information about
-              courses and professors at the University of Maryland. It allows users to quickly
-              get information about the difficulty of courses and the quality of professors.
-              The bot can also rank courses and professors based on the average GPA and ratings.
-            </p>
-            <div class="project-wrapper__text-btns">
-              <a href="https://github.com/justinn123/UMD-Prof-Ranker" target="_blank" rel="noopener noreferrer"
-                class="cta-btn cta-btn--hero cta-btn--projects">See
-                Live</a>
-              <a href="https://github.com/justinn123/UMD-Prof-Ranker" target="_blank"
-                class="cta-btn text-color-main">Source Code</a>
-            </div>
-          </div>
-
-          <div class="project-wrapper__image">
-            <a href="https://github.com/justinn123/UMD-Prof-Ranker" target="_blank" rel="noopener noreferrer">
-              <div class="thumbnail rounded">
-                <img src="./assets/image.png" class="img-fluid" alt="Project Image" width="1366" height="767" />
               </div>
             </a>
           </div>
