@@ -16,7 +16,7 @@ Have fun creating your portfolio on this template!!! -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- HTML Meta Tags -->
   <title>Justin Nguyen | Developer</title>
-  <link rel="icon" type="image/png" href="./assets/favicon.png"/>
+  <link rel="icon" type="image/png" href="./assets/favicon.png" />
   <meta name="description" content="Portfolio of Justin Nguyen - showcasing projects and experience">
 
   <!-- Facebook Meta Tags -->
@@ -79,10 +79,10 @@ Have fun creating your portfolio on this template!!! -->
         </div>
         <div class="about-wrapper__info">
           <p class="about-wrapper__info-text">
-            Hi, I'm Justin Nguyen. I will be graduating soon from the
-            University of Maryland, College Park with a B.S. in Computer Science with
-            a specialization in Data Science. Aside from computer science, some of my interests
-            include basketball, bouldering, snowboarding, and watching/reading anime and manga.
+            Hi, I'm Justin Nguyen. I am currently a Jr. full stack developer at Precise Software Solutions.
+            Here, I am currently using Angular, Typescript, Django, and SQL to help streamline FDA operations.
+            Aside from computer science, some of my interests include basketball, bouldering, snowboarding,
+            and watching/reading anime and manga.
           </p>
           <span class="about-wrapper__cta">
             <a href="./assets/JustinNguyen_Resume.pdf" target="_blank" class="cta-btn cta-btn--resume">View Resume</a>
@@ -98,6 +98,33 @@ Have fun creating your portfolio on this template!!! -->
     <div class="container">
       <div class="project-wrapper">
         <h2 class="section-title dark-blue-text">Projects</h2>
+        <!-- Each .row is a project -->
+        <article class="row">
+          <div class="project-wrapper__text">
+            <h3 class="project-wrapper__text-title">UMD File Share</h3>
+            <p class="project-wrapper__text-info">
+              This project is a full-stack web application that allows University of Maryland students to search for
+              specific courses and upload their own notes and study files. Built using the MERN stack (MongoDB, Express,
+              React, Node.js), users can browse existing uploads by course, contribute their own materials, and access shared content.
+            </p>
+            <div class="project-wrapper__text-btns">
+              <a href="https://umd-file-share.vercel.app/" target="_blank" rel="noopener noreferrer"
+                class="cta-btn cta-btn--hero cta-btn--projects">See
+                Live</a>
+              <a href="https://github.com/justinn123/UMD-FileShare" target="_blank"
+                class="cta-btn text-color-main">Source Code</a>
+            </div>
+          </div>
+
+          <div class="project-wrapper__image">
+            <a href="https://umd-file-share.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <div class="thumbnail rounded">
+                <img src="./assets/umd-file-share.png" class="img-fluid" alt="Project Image" width="1366" height="767" />
+              </div>
+            </a>
+          </div>
+        </article>
+        <!-- /END Project -->
         <!-- Each .row is a project -->
         <article class="row">
           <div class="project-wrapper__text">
